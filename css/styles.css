@@ -255,13 +255,13 @@ header a {
     align-items: baseline;
 }
 
-.form{
+.for{
     display: flex;
-    flex-direction: wrap;
+
 }
 
 .contact-form-mail-label {
-    
+    display: block;
     margin-bottom: 20px;
 
     color: #FFFFFF;
@@ -273,7 +273,7 @@ header a {
 }
 
 .contact-form-mail {
-    margin-right: 10px;
+    margin-right: 12px;
     padding: 15px 16px;
     width: 358px;
     height: 50px;
@@ -291,13 +291,13 @@ header a {
 }
 
 .contact-form-submit-button {
-    display: inline-flex;
-    align-items: center;
+    position:absolute;
     
-    padding: 10px 28px;
+    padding-right:28px ;
     width: 200px;
     height: 50px;
 
+    text-align: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -319,8 +319,9 @@ header a {
 }
 
 .btn-footer-icon {
+    margin-top: 3px;
     margin-left: 10px;
-
+    position: absolute;
 }
 
 /* ==Adres Header/Footer== */
@@ -396,7 +397,7 @@ header a {
 
     cursor: pointer;
 }
-/* ===Backdrop=== */
+/* ===BACKDROP=== */
 .backdrop {
     position: fixed;
     width: 100vw;
